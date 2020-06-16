@@ -18,9 +18,9 @@ public class WebAppContoller {
 
     @RequestMapping("/")
     public String index(Model model){
-        model.addAttribute("datetime", new Date());
-        model.addAttribute("username", "@omeryazir");
-        model.addAttribute("projectname", "WebApp");
+//        model.addAttribute("datetime", new Date());
+        model.addAttribute("teamName", "Player team");
+        model.addAttribute("projectName", "DISCO PLAYER");
 
         model.addAttribute("mode", appMode);
 
